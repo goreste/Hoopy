@@ -41,6 +41,14 @@ extension DribbbleShot {
         return dictionary["description"] as? String
     }
     
+    var likesCount: Int? {
+        return dictionary["likes_count"] as? Int
+    }
+    
+    var commentsCount: Int? {
+        return dictionary["comments_count"] as? Int
+    }
+    
     
     var author: String? {
         return (dictionary["user"] as? [String:AnyObject])?["name"] as? String

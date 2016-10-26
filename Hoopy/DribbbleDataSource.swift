@@ -11,7 +11,7 @@ import Alamofire
 
 final class DribbbleDataSource {
     
-    fileprivate let dribbbleAccessToken = "[DRIBBBLE_ACCESS_TOKEN]"
+    fileprivate let dribbbleAccessToken = "7fb69e905a61b45e7e638c359c3009a69c5888277c7c3ee2ced1646a0c3cac81"
     
     // TODO: retrieve next page number based on LINK
     fileprivate(set) var page = 1
